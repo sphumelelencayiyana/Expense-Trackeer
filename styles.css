@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+    background-color: rgb(250, 246, 246);
+}
+
+.container{
+    width: 600px;
+    height: 200px;
+    background: gainsboro;
+    bottom:200px;
+}
+
+.display {
+    font-display: 500px;
+    background: gainsboro;
+}
