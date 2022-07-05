@@ -7,3 +7,5 @@ var state = {
         { name:' Buy Grocery', amount: 50, type: 'expense'},
         { name:'Buy Guitar ', amount: 500, type: 'expense'},
     ]
+    
+}
