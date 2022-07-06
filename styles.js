@@ -20,5 +20,10 @@ function render(){
     updateState();
     initListeners();
     render();
-    
+  
+}
+
+function initListeners(){
+    incomeBtnEl.addEventLister('click',onAddincomeClick);
+    expenseBtnEl.addEventLister('click',onAddExpenseClick);
 
