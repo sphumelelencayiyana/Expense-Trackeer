@@ -14,3 +14,4 @@ var balanceEl = document.querySelector('#balance');
 var incomeEl = document.querySelector('#income');
 var expenseEl = document.querySelector('#expense');
 var transactionEl = document.querySelector('#transaction')
+var incomeEl = document.querySelector('#income');
