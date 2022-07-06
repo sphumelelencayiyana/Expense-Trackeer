@@ -30,3 +30,11 @@ function initListeners(){
 
 function onAddExpenseClick() {
     console.log('income');
+
+}
+
+function onAddExpenseClick() {
+    console.log('expense');
+  
+}
+
