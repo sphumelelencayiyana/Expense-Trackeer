@@ -9,3 +9,5 @@ var state = {
     ]
     
 }
+
+var balanceEl = document.querySelector('#balance');

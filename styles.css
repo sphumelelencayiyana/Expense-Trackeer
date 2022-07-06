@@ -12,6 +12,7 @@ body {
     background: gainsboro;
     bottom:200px;
     margin: auto;
+
 }
 
 .display {
@@ -19,5 +20,5 @@ body {
     background: gainsboro;
     align-items: center;
     flex-direction: column;
-    margin-left: 
+    
 }
