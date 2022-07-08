@@ -58,13 +58,28 @@ function render() {
 
     var transactionEl, containerEl, amountEl;
 
-        for (var i = 0; i < state.transactions.length; i++) {
-            item = state.transactions[i]; 
-    
-            if (item.type === 'income'){
-                income += item.amount;
-            } else if (item.type === 'expense') {
-                expense += item.amount;
+    for (var i = 0; i < statetransactions.length; i++) {
+        item = state.transactions[i]
+        transactionEl = document.createElement('li');
+        transactionEl.append(state.transactions[i].name);
+  
+        transactionEl.appendChild(transactionEl); 
+
+        containerEl = document,createElement('div')
             }
     
         } 
+        amountEl = document.createElement('span');
+        if (item.type === 'income'){
+            amountEl.classList.add('income-amt')
+        } else if (item.type === 'expense'){
+        amountEl.classList.add('expense-amt');
+        } 
+        anountEl.innerHTML = '$${item.anount}'
+
+        containerEl.appendChild(anountEl);
+
+        btnEl = document.createElement(anountEl)
+        btnEl.innerHTML = 'X';
+
+        containerEl.appendChild(btnEl);
