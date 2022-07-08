@@ -44,6 +44,20 @@ function updateState() {
         expense = 0,
         item;
 
+        balance = income - expense; 
+
+    state.expense = balance;
+    state.income = income;
+    state.expense = expense;
+}
+
+function render() {
+    balanceEl.innerHTML = `$${state.balance}`;
+    incomeEl.innerHTML = `$${state.income}`;
+    expenseEl.innerHTML = `$${state.expense}`;
+
+    var transactionEl, containerEl, amountEl;
+
         for (var i = 0; i < state.transactions.length; i++) {
             item = state.transactions[i]; 
     
