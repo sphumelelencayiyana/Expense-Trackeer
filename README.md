@@ -1,3 +1,2 @@
-# Expense-Trackeer
-# Sphumelele--Expense-Tracker
-[link](https://sphumelelencayiyana.github.io/Expense-Trackeer/)
+# Sphumelele-Expense-Tracker
+[link](https://the-digitalacademy.github.io/Sphumelele-Expense-Tracker/)
